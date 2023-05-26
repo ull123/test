@@ -13,3 +13,4 @@ foreach ($arr as $el){
     echo gettype($el)." ";
 }
 var_dump($arr);
+echo '"777"';
