@@ -29,6 +29,7 @@ while ($product = mysqli_fetch_assoc($products)){
                 <th scope="col">Product name</th>
                 <th scope="col">Price</th>
                 <th scope="col">Count</th>
+                <th scope="col">Action</th>
             </tr>
             </thead>
             <tbody>
@@ -38,10 +39,35 @@ while ($product = mysqli_fetch_assoc($products)){
                 <td><a href="product.php?id=<?=$elem["id"]?>"><?=$elem["title"]?></a></td>
                 <td><?=$elem["price"]?></td>
                 <td><?=$elem["count"]?></td>
+                <td>
+                    <a href="editProduct.php?id=<?=$elem["id"]?>" class="btn btn-success">Edit</a>
+                    <a href="products/delete.php?id=<?=$elem["id"]?>" class="btn btn-danger">Delete</a>
+                </td>
             </tr>
             <?php }?>
             </tbody>
         </table>
+    
+    <form action="products/store.php" method="post">
+        <div class="mb-3">
+            <label for="title" class="form-label">Product name</label>
+            <input type="text" class="form-control" id="title" name="title" aria-describedby="Product name...">
+        </div>
+        <div class="mb-3">
+            <label for="description" class="form-label">Product description</label>
+            <textarea type="text" class="form-control" id="description" name="description"aria-describedby="Product description..."></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="price" class="form-label">Product price</label>
+            <input type="number" class="form-control" id="price" name="price" aria-describedby="Product price...">
+        </div>
+        <div class="mb-3">
+            <label for="count" class="form-label">Product count</label>
+            <input type="number" class="form-control" id="count" name="count" aria-describedby="Product count...">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    
     </div>
 </body>
 </head>
