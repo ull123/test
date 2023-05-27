@@ -27,10 +27,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\test\codewars" />
       <recent name="C:\OSPanel\domains\test\multiloader\core" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.form.php">
+  <component name="RunManager" selected="PHP Script.store.php">
     <configuration name="form.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/multiloader/form.php">
       <method v="2" />
     </configuration>
@@ -42,8 +43,12 @@
       </CommandLine>
       <method v="2" />
     </configuration>
+    <configuration name="store.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/MySQL/products/store.php">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.store.php" />
         <item itemvalue="PHP Script.form.php" />
         <item itemvalue="PHP Script.operations.php" />
       </list>
@@ -58,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1684912194347</updated>
       <workItem from="1684912200090" duration="5545000" />
-      <workItem from="1685085487012" duration="11037000" />
+      <workItem from="1685085487012" duration="18176000" />
     </task>
     <servers />
   </component>
