@@ -22,17 +22,27 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nasl" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\test\nasl" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\test\nasl\classes\Products" />
+      <recent name="C:\OSPanel\domains\test\nasl\classes" />
       <recent name="C:\OSPanel\domains\test\codewars" />
       <recent name="C:\OSPanel\domains\test\multiloader\core" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.store.php">
+  <component name="RunManager" selected="PHP Script.form.php">
     <configuration name="form.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/multiloader/form.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
       <method v="2" />
     </configuration>
     <configuration name="operations.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/operations.php">
@@ -48,8 +58,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.store.php" />
         <item itemvalue="PHP Script.form.php" />
+        <item itemvalue="PHP Script.store.php" />
         <item itemvalue="PHP Script.operations.php" />
       </list>
     </recent_temporary>
@@ -63,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1684912194347</updated>
       <workItem from="1684912200090" duration="5545000" />
-      <workItem from="1685085487012" duration="27160000" />
+      <workItem from="1685085487012" duration="42713000" />
     </task>
     <servers />
   </component>
